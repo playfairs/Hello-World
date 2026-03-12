@@ -16,7 +16,7 @@ brainfuck | [main.bf](../lang/brainfuck/main.bf) | ![brainfuck](../lang/brainfuc
 c | [main.i](../lang/c/main.i) | ![c](../lang/c/c.png)
 c | [main.c](../lang/c/main.c) | ![c](../lang/c/c.png)
 cobol | [main.cbl](../lang/cobol/main.cbl) | ![cobol](../lang/cobol/cobol.png)
-cpp | [main.cpp](../lang/cpp/main.cpp) | 
+cpp | [main.cpp](../lang/cpp/main.cpp) | ![cpp](../lang/cpp/cpp.png)
 csharp | [Program.cs](../lang/csharp/Program.cs) | ![csharp](../lang/csharp/csharp.png)
 delphi | [Project1.dpr](../lang/delphi/Project1.dpr) | ![delphi](../lang/delphi/delphi.png)
 elixir | [main.exs](../lang/elixir/main.exs) | ![elixir](../lang/elixir/elixir.png)
@@ -30,7 +30,7 @@ javascript | [index.js](../lang/javascript/index.js) | ![javascript](../lang/jav
 julia | [main.jl](../lang/julia/main.jl) | ![julia](../lang/julia/julia.png)
 kotlin | [Main.kt](../lang/kotlin/Main.kt) | ![kotlin](../lang/kotlin/kotlin.png)
 latex | [la.tex](../lang/latex/la.tex) | ![latex](../lang/latex/latex.png)
-lisp | [main.lisp](../lang/lisp/main.lisp) | 
+lisp | [main.lisp](../lang/lisp/main.lisp) | ![lisp](../lang/lisp/lisp.png)
 lua | [main.lua](../lang/lua/main.lua) | ![lua](../lang/lua/lua.png)
 malbolge | [hello.mal](../lang/malbolge/hello.mal) | ![malbolge](../lang/malbolge/malbolge.png)
 nix | [hello.nix](../lang/nix/hello.nix) | ![nix](../lang/nix/nix.png)
@@ -39,7 +39,7 @@ perl | [main.pl](../lang/perl/main.pl) | ![perl](../lang/perl/perl.png)
 php | [index.php](../lang/php/index.php) | ![php](../lang/php/php.png)
 postgres | [main.psql](../lang/postgres/main.psql) | ![postgres](../lang/postgres/postgres.png)
 pug | [main.jade](../lang/pug/main.jade) | ![pug](../lang/pug/pug.png)
-python | [main.py](../lang/python/main.py) | 
+python | [main.py](../lang/python/main.py) | ![python](../lang/python/python.png)
 r | [main.r](../lang/r/main.r) | ![r](../lang/r/r.png)
 ruby | [main.rb](../lang/ruby/main.rb) | ![ruby](../lang/ruby/ruby.png)
 rust | [main.rs](../lang/rust/main.rs) | ![rust](../lang/rust/rust.png)
