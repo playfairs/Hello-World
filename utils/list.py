@@ -16,7 +16,7 @@ for dirpath, dirnames, filenames in os.walk(root):
 
         image_path = os.path.join(dirpath, f'{lang}.png')
         if os.path.exists(image_path):
-            image_md = f'![{lang}]({os.path.relpath(image_path, start=".")})'
+            image_md = os.path.relpath(image_path, start='.')
         else:
             image_md = ''
 
@@ -29,6 +29,6 @@ with open(output_md, 'w', encoding='utf-8') as md:
     md.write('Language | File | Image\n')
     md.write('-------- | ---- | -----\n')
     for lang, path, image in entries:
-        md.write(f'{lang} | [{os.path.basename(path)}]({path}) | <{image}>\n')
+        md.write(f'{lang} | [{os.path.basename(path)}]({path}) | {image}\n')
 
 print(f'Markdown file created at {output_md}')
