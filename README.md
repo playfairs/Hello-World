@@ -6,7 +6,7 @@ Some languages need to be separated into subdirectories, especially Go, because 
 
 I will obviously add more files, there is a bunch of languages I will try out for this, Hello World is a simple thing that has been used as samples for a long time in programming, and this is the simplist way to do all of that in one repository.
 
-# Every language sorted alphabetically, that I have added.
+## Every language sorted alphabetically, that I have added.
 
 Language | File | Image
 -------- | ---- | -----
