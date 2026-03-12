@@ -29,6 +29,6 @@ with open(output_md, 'w', encoding='utf-8') as md:
     md.write('Language | File | Image\n')
     md.write('-------- | ---- | -----\n')
     for lang, path, image in entries:
-        md.write(f'{lang} | [{os.path.basename(path)}]({path}) | {image}.png\n')
+        md.write(f'{lang} | [{os.path.basename(path)}]({path}) | {image}\n')
 
 print(f'Markdown file created at {output_md}')
