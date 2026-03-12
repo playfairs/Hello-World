@@ -47,7 +47,7 @@ lang_map = {
     '.jade': 'pug',
 }
 
-root = './lang'
+root = '../lang'
 
 for dirpath, dirnames, filenames in os.walk(root):
     for f in filenames:
