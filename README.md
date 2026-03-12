@@ -7,7 +7,7 @@ Some languages need to be separated into subdirectories, especially Go, because 
 I will obviously add more files, there is a bunch of languages I will try out for this, Hello World is a simple thing that has been used as samples for a long time in programming, and this is the simplist way to do all of that in one repository.
 
 
-## Currently this list consists of the following languages.
+## Currently this Repo has [40] files.
 
 
 - Ada — `main.ada`
