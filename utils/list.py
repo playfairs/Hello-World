@@ -16,7 +16,7 @@ for dirpath, dirnames, filenames in os.walk(root):
 
         image_path = os.path.join(dirpath, f'{lang}.png')
         if os.path.exists(image_path):
-            image_md = os.path.relpath(image_path, start='.')
+            image_md = f'![{lang}]({os.path.relpath(image_path, start=".")})'
         else:
             image_md = ''
 
