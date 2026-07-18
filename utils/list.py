@@ -26,9 +26,9 @@ entries.sort(key=lambda x: x[0].lower())
 
 with open(output_md, 'w', encoding='utf-8') as md:
     md.write('# All Files in Repository\n\n')
-    md.write('Language | File | Image\n')
-    md.write('-------- | ---- | -----\n')
+    md.write('Language | File \n')
+    md.write('-------- | ---- \n')
     for lang, path, image in entries:
-        md.write(f'{lang} | [{os.path.basename(path)}]({path}) | {image}\n')
+        md.write(f'{lang} | [{os.path.basename(path)}]({path})\n')
 
 print(f'Markdown file created at {output_md}')
